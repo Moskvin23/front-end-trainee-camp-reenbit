@@ -1,0 +1,51 @@
+
+  .container{
+    margin-top: 16px;
+    margin-bottom: 60px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width:100%;
+    form{
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      padding-left: 16px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      .formControl{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        width: 100%;
+        img{
+          cursor: pointer;
+        }
+      }
+    }
+    input{ 
+     border: none;
+      width: 100%;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+
+    }
+    input::placeholder {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+
+  }
+
+  }
+
+  textarea:focus, input:focus{
+    outline: none;
+}

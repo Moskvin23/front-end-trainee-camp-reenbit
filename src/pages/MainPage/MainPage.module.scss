@@ -1,0 +1,38 @@
+.wrapper{
+  padding-top: 36px;
+  padding-bottom: 100px;
+  max-width: 1020px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+    .img {
+    height: 200px;
+    width: 600px;
+  }
+
+ .sectionWithCards {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 20px;
+ }
+}
+.informationIfHaveNotCards{
+font-size: 20px;
+}
+
+@media(max-width:650px){
+  .wrapper {
+
+  padding-top: 92px;
+  .img{
+    height: 104px;
+    width: 312px;
+  } 
+}
+}
