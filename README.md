@@ -1,5 +1,7 @@
 **You're welcome**
 
+![bandicam 2023-03-18 16-55-00-220 (1)](https://user-images.githubusercontent.com/79521676/226113716-8adf2663-ad4d-446e-a236-c2c5838f7ec1.gif)
+
 Reenbit internship Front-end. Test task
 
 [It's a link to a website that I made](https://main--trainee-reenbit-test-project.netlify.app//)
